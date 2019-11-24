@@ -153,7 +153,7 @@ namespace Integracao_Hubspot_Sige.Intergracao.Comunicacao
 
         public static class Metodos
         {
-            private const string APIKEY = "359255d2-cbb9-4406-abef-dff5825dbde0";
+            private const string APIKEY = "";
 
             //GET
             public static string GetAllContacts = $"https://api.hubapi.com/contacts/v1/lists/all/contacts/all?hapikey={APIKEY}&count=100";
